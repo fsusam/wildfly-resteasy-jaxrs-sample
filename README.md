@@ -1,6 +1,9 @@
 # wildfly-resteasy-jaxrs-sample
 mvn clean install
+
+# for Docker
 docker build -t="wildfly-jaxrs-sample" .
+
 docker run -d -p 8080:8080 wildfly-jaxrs-sample
 
 sample link
