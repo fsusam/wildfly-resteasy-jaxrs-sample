@@ -1,5 +1,6 @@
 # wildfly-resteasy-jaxrs-sample
 mvn clean install
+Deploy the jar to wildfly
 
 # for Docker
 docker build -t="wildfly-jaxrs-sample" .
